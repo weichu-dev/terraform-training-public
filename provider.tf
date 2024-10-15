@@ -1,6 +1,5 @@
 provider "azurerm" {
     features {}
-    subscription_id = secrets.AZURE_SUBSCRIPTION_ID
 }
 
 # Set the Azure Provider source and version being used
