@@ -1,5 +1,6 @@
 provider "azurerm" {
     features {}
+    resource_provider_registrations = "none"
 }
 
 # Set the Azure Provider source and version being used
